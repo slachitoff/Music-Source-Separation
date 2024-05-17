@@ -60,3 +60,16 @@ model.load_state_dict(state_dict)
 # Move the model to the designated computing device
 model.to(device)
 model.eval()  # Switch the model to evaluation mode
+```
+
+### Evaluation Results
+
+These metrics were averaged across the MUSDB18 test set:
+
+| Source  |   SDR   |   SIR   |   SAR   |   ISR   |
+|---------|--------:|--------:|--------:|--------:|
+| Bass    |   0.11  | -14.92  |   5.73  |   0.15  |
+| Drums   |   0.85  |  -5.74  |   7.74  |   1.29  |
+| Other   |   1.66  |  -0.78  |   7.69  |   2.64  |
+| Vocals  |   0.90  |  -5.51  |   7.65  |   1.47  |
+
