@@ -15,7 +15,7 @@ The goal of this project is to explore music source separation techniques using 
 
 ## Model Overview
 
-The `model_parameters.pt` file is a PyTorch checkpoint containing the weights of our trained U-Net model. This model has been fine-tuned to separate music tracks into vocals, bass, drums, and other instruments with improved accuracy.
+The `model_parameters.pt` file is a PyTorch checkpoint containing the weights of our trained U-Net model. This model has been fine-tuned to separate music tracks into vocals, bass, drums, and other instruments.
 
 ## Getting Started
 
